@@ -2,9 +2,6 @@ cmake_minimum_required(VERSION 3.15)
 project(WormholeSim LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 
-# Enable code completion by generating compile_commands.json
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
 find_package(gflags REQUIRED)
 find_package(leveldb REQUIRED)
 find_package(Threads REQUIRED)
