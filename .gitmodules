@@ -1,3 +1,7 @@
 [submodule "deps/brpc"]
 	path = deps/brpc
 	url = https://github.com/apache/brpc.git
+	
+[submodule "deps/gem5"]
+	path = deps/gem5
+	url = https://github.com/gem5/gem5.git
